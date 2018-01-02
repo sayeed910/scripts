@@ -1,0 +1,1 @@
+wget $(curl "https://data.services.jetbrains.com//products/releases?code=CL%2CIIC&latest=true&type=release" | python -c "import sys, json; print(json.load(sys.stdin)['CL'][0]['downloads']['linux']['link'])")

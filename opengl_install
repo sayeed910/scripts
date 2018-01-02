@@ -1,0 +1,3 @@
+sudo dnf install cmake libXinerama-devel mesa-libGL-devel glfw make gcc-c++
+sudo dnf group install "X Software Environment"
+sudo dnf install @development-tools
